@@ -23,7 +23,6 @@ module.exports = {
       Node: {
         extensions: [".js", ".ts", ".jsx", ".tsx"],
         map: [
-          ["@", "./src"],
           ["@hooks", "./src/hooks"],
           ["@utils", "./src/utils"],
           ["@assets", "./src/assets"],
@@ -33,6 +32,7 @@ module.exports = {
           ["@ui", "./src/components/ui"],
           ["@pages", "./src/pages"],
           ["@public", "./public/"],
+          ["@", "./src"],
         ],
       },
     },

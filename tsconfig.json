@@ -22,7 +22,6 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
       "@hooks/*": ["./src/hooks/*"],
       "@utils/*": ["./src/utils/*"],
       "@assets/*": ["./src/assets/*"],
@@ -31,7 +30,8 @@
       "@shared/*": ["./src/components/shared/*"],
       "@ui/*": ["./src/components/ui/*"],
       "@pages/*": ["./src/pages/*"],
-      "@public/*": ["./public/*"]
+      "@public/*": ["./public/*"],
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"],
